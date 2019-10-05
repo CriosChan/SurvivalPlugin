@@ -1,0 +1,20 @@
+name: PluginSurvivalTeam
+version: 0.0.1
+author: Criosdu79
+main: fr.criosdu79.pluginsurvivalteam.SurvivalTeamPlugin
+commands:
+  join:
+    description: Join any team
+    permission: join.use
+  team:
+    description: Show your team
+    permission: team.use
+  blockbreak:
+    description: Show your all break block
+    permission: block.use
+  point:
+    description: View all point you have
+    permission: point.use
+  shop:
+    description: Just for sell item for points
+    permission: shop.use
